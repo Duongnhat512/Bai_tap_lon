@@ -6,54 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="../css/stylesheet.css">
-    
-    </script>
     <title>Trang chủ</title>
 </head>
 <body>
-    <div class="header" style="background-color: #076bd8;">
+    <!-- Header -->
+    <div class="header-wrapper">
         <div class="banner-top">
-            <img src="../img/banner-top.webp" alt="banner-top.webp" width="70%">
+            <img src="../img/banner-top.webp" alt="banner-top.webp" width="100%">
         </div>
         <div class="search-bar">
-            <form class="form-inline" action="/action_page.php">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-            </form>
-        </div>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-branch" href="#">
-                        <img src="./img/logo.webp" height="50">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                        data-target="#navbarResponsive">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Connect</a>
-                            </li>
-                        </ul>
-                    </div>
+                  <a class="navbar-brand" href="javascript:void(0)"><img src="../img/logo.webp" alt="logo.webp" width="50px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Trang chủ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="dang-ky.html">Đăng ký</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="dang-nhap.html">Đăng nhập</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Khuyến mãi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Giỏ hàng</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="text" placeholder="Nhập tên sản phẩm...">
+                      <button class="btn btn-primary">Tìm</button>
+                    </form>
+                  </div>
                 </div>
-            </nav>
+              </nav>
+        </div>
+    </div>
+    <!-- Body content-->
+    <div class="body-wrapper">
+        <div class="container-fluid">
+            <div class="body-top">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="background-color: rgb(228, 227, 227); color: black;">
+                  Danh mục sản phẩm
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">CPU</a></li>
+                  <li><a class="dropdown-item" href="#">Card màn hình</a></li>
+                  <li><a class="dropdown-item" href="#">RAM</a></li>
+                  <li><a class="dropdown-item" href="#">SSD</a></li>
+                  <li><a class="dropdown-item" href="#">HDD</a></li>
+                  <li><a class="dropdown-item" href="#">Bo mạch chủ</a></li>
+                  <li><a class="dropdown-item" href="#">Tản nhiệt</a></li>
+                  <li><a class="dropdown-item" href="#">Nguồn</a></li>
+                  <li><a class="dropdown-item" href="#">Case</a></li>
+                </ul>
+                <div class="contact">
+                  
+                </div>
+            </div>
+            <div class="product-center">
+                <img src="../img/img-center.jpg" alt="" width="50%" class="rounded">
+            </div>
         </div>
     </div>
 </body>
