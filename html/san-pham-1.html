@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>This is a WebPage using Bootstrap 4</title>
+	<!-- Import Boostrap css, js, font awesome here -->
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-    
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-branch" href="#">
+			<img src="./images/logo.png" height="50">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" 
+			data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Connect</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
 </body>
 </html>

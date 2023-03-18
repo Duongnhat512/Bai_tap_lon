@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    
+    </script>
     <title>Trang chủ</title>
 </head>
 <body>
-    
+    <div class="header" style="background-color: #076bd8;">
+        <div class="banner-top">
+            <img src="../img/banner-top.webp" alt="banner-top.webp" width="70%">
+        </div>
+        <div class="search-bar">
+            <form class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-branch" href="#">
+                        <img src="./img/logo.webp" height="50">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                        data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Connect</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
 </body>
 </html>
