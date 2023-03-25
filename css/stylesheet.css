@@ -13,6 +13,7 @@
 /* Banner */
 .banner-top{
     text-align: center;
+    background-color: rgb(7 107 216);
 }
 
 /* Navbar */
@@ -166,3 +167,58 @@ a.nav-link.product-link {
     height: 60px;
 }
 
+/* Footer */
+
+.email-contact {
+    background-color: rgb(81 107 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+.input-email {
+    width: 40%;
+    padding-right: 2px;
+    margin-left: 20px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+}
+
+button.btn-dang-ky {
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 36px;
+    width: 20%;
+}
+
+button.btn-dang-ky:hover{
+    background-color: rgb(232, 81, 81);
+}
+
+.shop-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.shop-introduction {
+    width: 25%;
+}   
+
+a.nav-link.footer-link {
+    padding-left: 0;
+    line-height: 10px;
+    color: black;
+}
+
+.copyright-info{
+    text-align: center; 
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+}
