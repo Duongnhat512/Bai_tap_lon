@@ -62,12 +62,19 @@
               <input type="password" class="form-control" name="password" id="password" placeholder="Mật khẩu..." required>
             </div>
             <div class="mb-3">
-                <input type="password" class="form-control" name="repassword" id="repassword" placeholder="Nhập lại mật khẩu..." required>
-            </div>
-            <div class="mb-3">
                 <input type="email" class="form-control" name="Email" id="Email" placeholder="Nhập email..." required>
             </div>
-            <input type="submit" class="btn btn-primary m-0" onclick="" name="loginsubmit" id="loginsubmit" value="Đăng Ký"></input> 
+            <div class="mb-3" style="display: flex; text-align: center; justify-content: space-between;">
+              <input type="text" class="form-control" name="Fname" id="Fname" placeholder="Tên..." required style="width: 48%;">
+              <input type="text" class="form-control" name="Lname" id="Lname" placeholder="Họ..." required style="width: 48%;">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Nhập số điện thoại...">
+            </div>
+            <input type="submit" class="btn btn-primary mb-3" name="loginsubmit" id="loginsubmit" value="Đăng Ký"></input>
+            <div>
+                <p>Đã có tài khoản?<a class="nav-link" href="login.html" style="display: inline;">Đăng nhập ngay.</a></p>
+            </div> 
         </form>
     </div>
 
@@ -79,7 +86,7 @@
             <p>Để được nhận thông báo về các ưu đãi của shop!</p>
           </div> 
           <div class="input-email">
-            <input type="email" class="form-control" placeholder="Nhập email của bạn...." name="usrname">
+            <input type="email" class="form-control" placeholder="Nhập email của bạn...." name="usrname" style="border: none;">
             <button class="btn-dang-ky">Đăng ký</button>
           </div>
   
