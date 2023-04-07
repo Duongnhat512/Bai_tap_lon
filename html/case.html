@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+	<link rel="stylesheet" href="../css/sanpham.css">
+    <title>Case máy tính</title>
+</head>
+<body>
+	<!-- Header -->
+    <div class="header-wrapper">
+		<div class="banner-top">
+		  <img src="../img/banner-top.webp" alt="banner-top.webp">
+		</div>
+		<div class="search-bar">
+			<nav class="navbar navbar-expand-sm navbar-light">
+				<div class="container-fluid">
+				  <div>
+					<a class="navbar-brand" href="javascript:void(0)"><img src="../img/logo.webp" alt="logo.webp" width="50px"></a>
+					<a class="navbar-brand" href="javascript:void(0)"><img src="../img/logo1.png" alt="logo1" width="100px"></a>
+				  </div>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="mynavbar">
+					<ul class="navbar-nav me-auto">
+					  <li class="nav-item">
+						<a class="nav-link" href="index.html">Trang chủ</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="signup.html">Đăng ký</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="login.html">Đăng nhập</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="javascript:void(0)">Khuyến mãi</a>
+					  </li>
+					</ul>
+					<form class="d-flex search-input">
+					  <input class="form-control me-2" type="text" placeholder="Nhập tên sản phẩm...">
+					  <button class="btn btn-primary btn-search">Tìm</button>
+					</form>
+				  </div>
+				</div>
+			  </nav>
+		</div>
+	  </div>
+
+	<div class="container-fluid">
+		<div class="container body-top">
+			<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="background-color: rgb(228, 227, 227); color: black;">
+				Danh mục sản phẩm
+			  </button>
+			  <ul class="dropdown-menu">
+				<!-- CPU -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="cpu.html">CPU</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel Core i9</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel Core i7</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link a=sy">Intel Core i5</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel Core i3</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- VGA -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="vga.html">Card màn hình</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link a=sy">RTX 4090</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">RTX 4080</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">RTX 4070 Ti</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">RTX 4070</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- RAM -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="ram.html">RAM</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Ram DDR5</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram LED RGB - DDR4</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram 8GB - DDR4</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram 16GB - DDR4</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram Corsair</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram G.Skill</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram Kingston</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- SSD -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="ssd.html">SSD</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">SSD M.2 PCIe NVMe Gen 4</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">SSD M.2 PCIe NVMe</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">SSD 2.5' SATA 3</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">SSD 240G - 256G</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">SSD 480G - 512G</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">SSD trên 1TB</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- MainBoard -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="mainboard.html">Bo mạch chủ</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel Z790 (Mới)</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel Z690</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel B760 (Mới)</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel B660</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel H610</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel H510</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel X299X</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">AMD X670 (Mới)</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">AMD X570</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">AMD B650 (Mới)</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- Tan Nhiet -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="tannhiet.html">Tản nhiệt</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt khí</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt AIO 240mm</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt AIO 280mm</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt AIO 360mm</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt AIO 420mm</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Fan RGB</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Phụ kiện máy tính</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- Nguon -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="nguon.html">Nguồn</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn Trên 1000W</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn 700W-850W</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn 550W-650W</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn 300W-500W</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn Corsair</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn NZXT</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn Cooler Master</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- Case -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="case.html">Case</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Dưới 1 Triệu</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Từ 1 đến 2 triệu</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case trên 2 triệu</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case InWin</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Lian Li</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case NZXT</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Corsair</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Thermaltake</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<li class="submenu">
+				  <a class="dropdown-item" href="#">PC chơi game - làm việc</a>
+				</li>
+			  </ul>
+			  <a class="nav-link shopping-cart " href="">
+				  <img src="../img/cart-icon.png" alt="cart-icon.png" width="25%"> Giỏ hàng
+			  </a>
+		</div>
+		<nav aria-label="breadcrumb" class="bg-light">
+			<ol class="breadcrumb breadcrumb-arrow container pt-2" style="height: 40px;">
+				<li class="breadcrumb-item"><a href="index.html" style="text-decoration: none;">Trang chủ</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Case</li>
+			</ol>
+		</nav>
+		<div class="container-fluid bg-light">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="body-left p-3 filter-price">
+							<h5>Lọc giá</h5>
+							<div class="form-check">
+							  <input class="form-check-input" type="checkbox" value="" id="" name="price">
+							  <label class="form-check-label" for="">
+								Dưới 5.000.000₫
+							  </label>
+							</div>
+							<div class="form-check">
+							  <input class="form-check-input" type="checkbox" value="" id="" name="price">
+							  <label class="form-check-label" for="">
+								5.000.000₫ - 10.000.000₫
+							  </label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="" name="price">
+								<label class="form-check-label" for="">
+									10.000.000₫ - 15.000.000₫
+								</label>
+							</div>
+							<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="" name="price">
+							<label class="form-check-label" for="">
+								15.000.000₫ - 20.000.000₫
+							</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="" name="price">
+								<label class="form-check-label" for="">
+									Trên 20.000.000₫
+								</label>
+							</div>	
+						</div>
+						<img class="mt-3 mb-2" src="../img/banner-left.webp" alt="banner-left" width="100%" height="700px">
+					</div>
+					<!-- List Case -->
+					<div class="col-lg-8 list-cpu">
+						<div class="">
+							<p><b>Case</b></p>
+							<p><b>10</b> sản phẩm</p>
+						</div>
+						<div class="row">
+							<div class="col-lg-3 p-0">
+								<a class="nav-link product-link" href="">
+									<div class="product-view">
+									  <img class="rounded pt-2 pb-1 mb-5" src="../img/linh-kien/case/case1.webp" alt="case1" width="100%">
+									  <div class="product-info">
+										<h6 style="color: gray; font-size: small;">Case HYTE Y60 Mid-Tower (White)</h6>
+									  </div>
+									  <h5 style="font-size: medium;">7,500,000₫</h5>
+									  <form class="add-to-cart" action="" style="width: 90%;">
+										<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+									  </form>
+									</div>
+								  </a>
+							</div>
+							<div class="col-lg-3 p-0">
+								<a class="nav-link product-link" href="">
+									<div class="product-view">
+									  <img class="rounded" src="../img/linh-kien/case/case2.webp" alt="case2" width="100%">
+									  <div class="product-info">
+										<h6 style="color: gray; font-size: small;">Vỏ Case VITRA CRYSTAL S1 BLACK M-ATX (Mini Tower/Màu Đen)</h6>
+									  </div>
+									  <h5 style="font-size: medium;">
+										1,290,000₫</h5>
+									  <form class="add-to-cart" action="" style="width: 90%;">
+										<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+									  </form>
+									</div>
+								  </a>
+							</div>
+							<div class="col-lg-3 p-0">
+								<a class="nav-link product-link" href="">
+									<div class="product-view">
+									  <img class="rounded" src="../img/linh-kien/case/case3.webp" alt="case3" width="100%">
+									  <div class="product-info">
+										<h6 style="color: gray; font-size: small;">
+											Vỏ case XIGMATEK AQUA III ARTIC (EN0822) WHITE (Mid Tower/Màu Trắng)</h6>
+									  </div>
+									  <h5 style="font-size: medium;">1,390,000₫</h5>
+									  <form class="add-to-cart" action="" style="width: 90%;">
+										<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+									  </form>
+									</div>
+								  </a>
+							</div>
+							<div class="col-lg-3 p-0">
+								<a class="nav-link product-link" href="">
+									<div class="product-view">
+									  <img class="rounded" src="../img/linh-kien/case/case4.webp" alt="case4" width="100%">
+									  <div class="product-info">
+										<h6 style="color: gray; font-size: small;">Vỏ case Xigmatek Gaming X 3F</h6>
+									  </div>
+									  <h5 style="font-size: medium;">
+										899,000₫</h5>
+									  <form class="add-to-cart" action="" style="width: 90%;">
+										<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+									  </form>
+									</div>
+								  </a>
+							</div>
+						</div>
+						<!--  -->
+						<div class="row">
+							<div class="col-lg-3 p-0">
+								<a class="nav-link product-link" href="">
+									<div class="product-view">
+									  <img class="rounded pt-2 pb-1 mb-5" src="../img/linh-kien/case/case1.webp" alt="case1" width="100%">
+									  <div class="product-info">
+										<h6 style="color: gray; font-size: small;">Case HYTE Y60 Mid-Tower (White)</h6>
+									  </div>
+									  <h5 style="font-size: medium;">7,500,000₫</h5>
+									  <form class="add-to-cart" action="" style="width: 90%;">
+										<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+									  </form>
+									</div>
+								  </a>
+							</div>
+							<div class="col-lg-3 p-0">
+								<a class="nav-link product-link" href="">
+									<div class="product-view">
+									  <img class="rounded" src="../img/linh-kien/case/case2.webp" alt="case2" width="100%">
+									  <div class="product-info">
+										<h6 style="color: gray; font-size: small;">Vỏ Case VITRA CRYSTAL S1 BLACK M-ATX (Mini Tower/Màu Đen)</h6>
+									  </div>
+									  <h5 style="font-size: medium;">
+										1,290,000₫</h5>
+									  <form class="add-to-cart" action="" style="width: 90%;">
+										<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+									  </form>
+									</div>
+								  </a>
+							</div>
+							<div class="col-lg-3 p-0">
+								<a class="nav-link product-link" href="">
+									<div class="product-view">
+									  <img class="rounded" src="../img/linh-kien/case/case3.webp" alt="case3" width="100%">
+									  <div class="product-info">
+										<h6 style="color: gray; font-size: small;">
+											Vỏ case XIGMATEK AQUA III ARTIC (EN0822) WHITE (Mid Tower/Màu Trắng)</h6>
+									  </div>
+									  <h5 style="font-size: medium;">1,390,000₫</h5>
+									  <form class="add-to-cart" action="" style="width: 90%;">
+										<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+									  </form>
+									</div>
+								  </a>
+							</div>
+							<div class="col-lg-3 p-0">
+								<a class="nav-link product-link" href="">
+									<div class="product-view">
+									  <img class="rounded" src="../img/linh-kien/case/case4.webp" alt="case4" width="100%">
+									  <div class="product-info">
+										<h6 style="color: gray; font-size: small;">Vỏ case Xigmatek Gaming X 3F</h6>
+									  </div>
+									  <h5 style="font-size: medium;">
+										899,000₫</h5>
+									  <form class="add-to-cart" action="" style="width: 90%;">
+										<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+									  </form>
+									</div>
+								  </a>
+							</div>
+						</div>
+						<form class="loadmore" action="">
+							<input class="btn-loadmore" type="button" value="Xem Thêm">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+    <div class="footer-wrapper">
+		<div class="email-contact">
+		  <div class="email-contact-title">
+			<h4>Đăng ký bản tin</h4>
+			<p>Để được nhận thông báo về các ưu đãi của shop!</p>
+		  </div> 
+		  <div class="input-email">
+			<input type="email" class="form-control" placeholder="Nhập email của bạn...." name="usrname">
+			<button class="btn-dang-ky">Đăng ký</button>
+		  </div>
+  
+		</div>
+		<div class="shop-info">
+		  <div class="shop-introduction">
+			<h4>Burno Shop</h4>
+			<p>Trang thương mại chính thức của Burno. Cung cấp các sản phẩm tuyện vời đến với người dùng.</p>
+		  </div>
+		  <div class="contact-info">
+			<h4>Thông tin liên hệ</h4>
+			<div class="address-footer">
+			  <ul>
+				<li class="contact-1">12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh.</li>
+				<li class="contact-2">0968 xxx xxx - 097 xxx xxxx</li>
+				<li class="contact-4">burnoshop123@gmail.com</li>
+			  </ul>
+			</div>
+		  </div>
+		  <div class="support">
+			<h4>Hỗ trợ khách hàng</h4>
+			<div class="address-footer">
+			  <ul>
+				<li class="contact-1"><a class="nav-link footer-link" href="">Tài khoản ngân hàng</a></li>
+				<li class="contact-2"><a class="nav-link footer-link" href="">Tìm kiếm</a></li>
+			  </ul>
+			</div>
+		  </div>
+		  <div class="policy">
+			<h4 cla>Chính sách</h4>
+			<div class="address-footer">
+			  <ul>
+				<li class="contact-1"><a class="nav-link footer-link" href="">Chính sách bảo hành</a></li>
+				<li class="contact-2"><a class="nav-link footer-link" href="">Chính sách bảo mật</a></li>
+				<li class="contact-3"><a class="nav-link footer-link" href="">Chính sách đổi trả</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+		<div class="copyright-info">
+		  <p>Copyright © 2023 Burno Shop - Phụ kiện |Tư vấn Build PC| giá rẻ - www.burnoshop.vn.</p>
+		</div>
+	  </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+.left-side{
+    border-right: 1px solid lightgray;
+}
+
+.baohanh{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 16px;
+    line-height: 30px;
+}
+
+.qty-area{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-qty{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+#quantity{
+    width: 40px;
+    height: 40px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.addcart-area{
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#add-to-cart{
+    width: 230px;
+    height: 50px;
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+    border-radius: 5px;
+}
+
+#buy-now{
+    width: 230px;
+    height: 50px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+}
+
+.product-toshare{
+    margin-top: 30px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+    
