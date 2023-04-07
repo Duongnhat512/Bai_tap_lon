@@ -1,0 +1,27 @@
+.filter-price{
+    box-shadow: 0px 0px 20px -17px rgba(0,0,0,0.75);
+    background: #ffff;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.list-cpu{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.loadmore{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.btn-loadmore{
+    border: 1px solid  rgb(7 107 216);
+    border-radius: 5px;
+    width: 20%;
+    height: auto;
+    padding: 5px 0px;
+    background-color: white;
+    color: rgb(7 107 216);;
+}
+
