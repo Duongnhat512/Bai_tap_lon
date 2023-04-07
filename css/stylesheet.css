@@ -4,15 +4,15 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: Quicksand;
+    src: url(../font/Quicksand/Quicksand-VariableFont_wght.ttf);
+  }
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    /* background-color: rgb(248 249 250); */
+    font-family: Quicksand !important;
 }
 
-.footer-wrapper{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-}
 
 
 /* ---------Header--------- */
@@ -79,6 +79,35 @@ body{
 .shopping-cart:hover{
     color: white;
     background-color: gray;
+}
+
+/* Submenu */
+
+.submenu-content{
+    padding: 10px;
+    width: 1100px;
+    position: absolute;
+    z-index: 1;
+    background: white;
+    left: 207px;
+    top: 0px;
+    display: none;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.submenu-content a{
+    color: black;
+}
+
+.submenu-content a:hover{
+    color: rgb(52, 160, 242);
+}
+
+.submenu:hover .submenu-content{
+    display: block;
+    
+    box-shadow: 2px 3px 20px -5px rgba(0,0,0,1);
 }
 
 /* Body center */
@@ -250,33 +279,4 @@ a.nav-link.footer-link {
     text-align: center; 
     border-top: 1px solid lightgray;
     padding-top: 10px;
-}
-
-
-
-.submenu-content{
-    padding: 10px;
-    width: 1100px;
-    position: absolute;
-    z-index: 1;
-    background: white;
-    left: 207px;
-    top: 0px;
-    display: none;
-    height: 100%;
-    border-radius: 3px;
-}
-
-.submenu-content a{
-    color: black;
-}
-
-.submenu-content a:hover{
-    color: rgb(52, 160, 242);
-}
-
-.submenu:hover .submenu-content{
-    display: block;
-    
-    box-shadow: 2px 3px 20px -5px rgba(0,0,0,1);
 }
