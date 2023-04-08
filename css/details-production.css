@@ -60,4 +60,13 @@
     justify-content: space-between;
     align-items: center;
 }
-    
+   
+.btn-loadmore{
+    border: 1px solid  rgb(7 107 216);
+    border-radius: 5px;
+    width: 20%;
+    height: auto;
+    padding: 5px 0px;
+    background-color: white;
+    color: rgb(7 107 216);;
+}
