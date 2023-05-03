@@ -81,6 +81,22 @@ body{
     background-color: gray;
 }
 
+.total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.total>h4{
+    margin-top: 6px;
+}
+.txt-total{
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+}
+
 /* Submenu */
 
 
@@ -279,4 +295,35 @@ a.nav-link.footer-link {
     text-align: center; 
     border-top: 1px solid lightgray;
     padding-top: 10px;
+}
+/* GioHang */
+
+.san-pham>img{
+    width: 100px;
+    height: 100px;
+}
+
+.san-pham{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+.gia{
+    display: flex;
+    padding-top: 35px;
+}
+.so-luong{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+.box-sl{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.but{
+    margin-top: 30px;
 }
