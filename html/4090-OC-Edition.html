@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+	<link rel="stylesheet" href="../css/details-production.css">
+    <title>4090 OC Edition</title>
+</head>
+<body>
+	<!-- Header -->
+    <div class="header-wrapper">
+		<div class="banner-top">
+		  <img src="../img/banner-top.webp" alt="banner-top.webp">
+		</div>
+		<div class="search-bar">
+			<nav class="navbar navbar-expand-sm navbar-light">
+				<div class="container-fluid">
+				  <div>
+					<a class="navbar-brand" href="javascript:void(0)"><img src="../img/logo.webp" alt="logo.webp" width="50px"></a>
+					<a class="navbar-brand" href="javascript:void(0)"><img src="../img/logo1.png" alt="logo1" width="100px"></a>
+				  </div>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="mynavbar">
+					<ul class="navbar-nav me-auto">
+					  <li class="nav-item">
+						<a class="nav-link" href="index.html">Trang chủ</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="signup.html">Đăng ký</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="login.html">Đăng nhập</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="javascript:void(0)">Khuyến mãi</a>
+					  </li>
+					</ul>
+					<form class="d-flex search-input">
+					  <input class="form-control me-2" type="text" placeholder="Nhập tên sản phẩm...">
+					  <button class="btn btn-primary btn-search">Tìm</button>
+					</form>
+				  </div>
+				</div>
+			  </nav>
+		</div>
+	  </div>
+
+	<div class="container-fluid bg-light pb-5">
+		<div class="container body-top">
+			<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="background-color: rgb(228, 227, 227); color: black;">
+				Danh mục sản phẩm
+			  </button>
+			  <ul class="dropdown-menu">
+				<!-- CPU -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="cpu.html">CPU</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel Core i9</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel Core i7</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link a=sy">Intel Core i5</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel Core i3</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- VGA -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="vga.html">Card màn hình</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link a=sy">RTX 4090</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">RTX 4080</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">RTX 4070 Ti</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">RTX 4070</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- RAM -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="ram.html">RAM</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Ram DDR5</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram LED RGB - DDR4</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram 8GB - DDR4</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram 16GB - DDR4</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram Corsair</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram G.Skill</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Ram Kingston</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- SSD -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="ssd.html">SSD</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">SSD M.2 PCIe NVMe Gen 4</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">SSD M.2 PCIe NVMe</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">SSD 2.5' SATA 3</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">SSD 240G - 256G</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">SSD 480G - 512G</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">SSD trên 1TB</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- MainBoard -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="mainboard.html">Bo mạch chủ</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel Z790 (Mới)</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel Z690</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel B760 (Mới)</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel B660</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel H610</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">Intel H510</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Intel X299X</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">AMD X670 (Mới)</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">AMD X570</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href=""  class="nav-link">AMD B650 (Mới)</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- Tan Nhiet -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="tannhiet.html">Tản nhiệt</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt khí</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt AIO 240mm</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt AIO 280mm</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt AIO 360mm</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Tản nhiệt AIO 420mm</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Fan RGB</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Phụ kiện máy tính</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- Nguon -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="nguon.html">Nguồn</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn Trên 1000W</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn 700W-850W</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn 550W-650W</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn 300W-500W</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn Corsair</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn NZXT</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Nguồn Cooler Master</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<!-- Case -->
+				<li class="submenu">
+				  <a class="dropdown-item" href="case.html">Case</a>
+				  <div class="submenu-content">
+					<div class="row">
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Dưới 1 Triệu</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Từ 1 đến 2 triệu</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case trên 2 triệu</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case InWin</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Lian Li</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case NZXT</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Corsair</a>
+					  </div>
+					  <div class="col-lg-3">
+						<a href="" class="nav-link">Case Thermaltake</a>
+					  </div>
+					</div>
+				  </div>
+				</li>
+				<li class="submenu">
+				  <a class="dropdown-item" href="#">PC chơi game - làm việc</a>
+				</li>
+			  </ul>
+			  <a class="nav-link shopping-cart " href="">
+				  <img src="../img/cart-icon.png" alt="cart-icon.png" width="25%"> Giỏ hàng
+			  </a>
+		</div>
+		<nav aria-label="breadcrumb" class="bg-light">
+			<ol class="breadcrumb breadcrumb-arrow container pt-2" style="height: 40px;">
+				<li class="breadcrumb-item"><a href="index.html" style="text-decoration: none;">Trang chủ</a></li>
+				<li class="breadcrumb-item"><a href="vga.html" style="text-decoration: none;">VGA</a></li>
+				<li class="breadcrumb-item active" aria-current="page">4090 OC White Edition</li>
+			</ol>
+		</nav>
+		<div class="container-fluid bg-light">
+			<div class="container pt-4 bg-light">
+				<div class="row bg-white">
+					<div class="col-lg-4 left-side">
+						<div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+								<li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+								<li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+								<li data-bs-target="#carouselId" data-bs-slide-to="3"></li>
+								<li data-bs-target="#carouselId" data-bs-slide-to="4"></li>
+								<li data-bs-target="#carouselId" data-bs-slide-to="5"></li>
+							</ol>
+							<div class="carousel-inner p-0" role="listbox">
+								<div class="carousel-item active">
+									<img src="../img/linh-kien/card/rog-strix-4090-OC/asus-rog-strix-geforce-rtx-4090-oc-edition-24gb-gddr6x_bf8baeb1a5dd45dfafbd294b138cfae7.webp" class="w-100 d-block" alt="4090-OC-white-box">
+								</div>
+								<div class="carousel-item">
+									<img src="../img/linh-kien/card/rog-strix-4090-OC/hinh1.webp" class="w-100 d-block" alt="4090-OC-white-full-box">
+								</div>
+								<div class="carousel-item">
+									<img src="../img/linh-kien/card/rog-strix-4090-OC/hinh2.webp" class="w-100 d-block" alt="4090-OC-white">
+								</div>
+								<div class="carousel-item">
+									<img src="../img/linh-kien/card/rog-strix-4090-OC/hinh3.webp" class="w-100 d-block" alt="cong-ket-noi">
+								</div>
+								<div class="carousel-item">
+									<img src="../img/linh-kien/card/rog-strix-4090-OC/hinh4.webp" class="w-100 d-block" alt="phu-kien">
+								</div>
+								<div class="carousel-item">
+									<img src="../img/linh-kien/card/rog-strix-4090-OC/hinh5.webp" class="w-100 d-block" alt="phu-kien">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="row mt-5 mb-5" style="justify-content: space-around;">
+							<div class="col-lg-3" style="border: 1px solid rgb(249, 172, 131);">
+								<img class="w-100" src="../img/linh-kien/card/rog-strix-4090-OC/hinh1.webp" alt="4090-OC-white-box">
+							</div>
+							<div class="col-lg-3" style="border: 1px solid rgb(249, 172, 131);">
+								<img class="w-100" src="../img/linh-kien/card/rog-strix-4090-OC/hinh2.webp" alt="4090-OC-white-full-box">
+							</div>
+							<div class="col-lg-3" style="border: 1px solid rgb(249, 172, 131);">
+								<img class="w-100" src="../img/linh-kien/card/rog-strix-4090-OC/hinh3.webp" alt="4090-OC-white">
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-lg-8 p-3">
+						<h4 style="font-weight: bold;">ASUS ROG Strix GeForce RTX 4090 OC White Edition 24GB GDDR6X</h4>
+						<p>Tình trạng: <b style="color: orange;">Còn hàng</b></p>
+						<div class="row">
+							<div class="col-lg-7 p-4 pt-0">
+								<div class="row bg-light p-3">
+									<p class="col-2"><b>Giá:</b></p>
+									<h2 class="col-3"><b class="text-danger">58,990,000₫</b></h2>
+								</div>
+								<div class="qty-area mt-3">
+									<b>Số lượng</b>
+									<div class="d-flex">
+										<button class="btn-qty">&minus;</button>
+										<input type="text" id="quantity" value="1" min="1" class="qty-input">
+										<button class="btn-qty">&plus;</button>
+									</div>
+								</div>
+								<div class="d-flex addcart-area">
+									<button type="button" id="add-to-cart"><b>THÊM VÀO GIỎ</b></button>
+									<button type="button" id="buy-now"><b>MUA NGAY</b></button>
+								</div>
+								<div class="product-toshare">
+									Chia sẻ
+									<div class="share">
+										<img src="../img/Facebook 9.png" alt="Facebook">
+										<img src="../img/YouTube 8.png" alt="YouTube">
+										<img src="../img/Twitter 9.png" alt="Twitter">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 baohanh" style="margin-left: 15px;">
+								<p><b>Chính sách bảo hành</b></p>
+								<ul>
+									<li>Cam kết 100% chính hãng</li>
+									<li>Hỗ trợ 24/7</li>
+								</ul>
+								<p><b>Thông tin thêm</b></p>
+								<ul>
+									<li>Hoàn tiền 111% nếu là hàng giả</li>
+									<li>Mở hộp kiểm tra nhận hàng</li>
+									<li>Đổi trả trong 7 ngày</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-decription mt-3">
+				<div class="container bg-white" style="font-size: 15px;">
+					<div class="pt-3" style="border-bottom: 1px solid lightgray;">
+						<b class="h4 m-3" style="border-bottom: 1px solid black;">Mô tả sản phẩm</b>
+					</div>
+					<div class="product-description">
+						<div class="description-productdetail m-3" style="height: auto; overflow: hidden;">
+							<table style="width:686px"><tbody><tr><td>THÔNG TIN CHUNG</td><td>&nbsp;</td></tr><tr><td>Nhà sản xuất</td><td>Asus</td></tr><tr><td>Tên sản phẩm</td><td>VP249QGR</td></tr><tr><td>Phân khúc</td><td>Gaming</td></tr><tr><td>THÔNG SỐ CHI TIẾT</td><td>&nbsp;</td></tr><tr><td>Kích thước hiển thị</td><td>23.8 inch</td></tr><tr><td>Tỉ lệ màn hình</td><td>16:09</td></tr><tr><td>Độ phân giải</td><td>FHD (1920 x 1080)</td></tr><tr><td>Tấm nền</td><td>IPS</td></tr><tr><td>Loại đèn nền</td><td>LED</td></tr><tr><td>Pixel Pitch</td><td>0.2745mm</td></tr><tr><td>Tần số quét(tối đa)</td><td>144Hz</td></tr><tr><td>Thời gian phản hồi</td><td>1ms (MPRT)</td></tr><tr><td>Độ tương phản</td><td>1000:1</td></tr><tr><td>Tỷ lệ tương phản thông minh ASUS (ASCR)</td><td>1000000000: 1</td></tr><tr><td>Độ sáng</td><td>250nits</td></tr><tr><td>Góc nhìn</td><td>178/178</td></tr><tr><td>Nhiệt độ màu&nbsp;</td><td>Có 4 chế độ</td></tr><tr><td>Màu hiển thị</td><td>16,7M</td></tr><tr><td>Điện năng tiêu thụ&nbsp;</td><td>Mức tiêu thụ điện năng : &lt;16W *<br>Chế độ tiết kiệm năng lượng : Chế độ tắt nguồn: &lt;0,5W<br>Điện áp : 100-240V, 50 / 60Hz</td></tr><tr><td>Tần số tín hiệu</td><td>Tần số tín hiệu kỹ thuật số: 30 ~ 180 KHz (H) / 48 ~ 144 Hz (V)<br>Tần số tín hiệu analog : 30 ~ 84 KHz (H) / 48 ~ 75 Hz (V)</td></tr><tr><td>Bề mặt màn hình</td><td>nhám</td></tr><tr><td>Màu sắc vỏ</td><td>Đen</td></tr><tr><td>Kích thước</td><td>Kích thước với chân đế (W x H x D) : 540,50 x 389,34 x 204,42 mm<br>Phys. Kích thước không có chân đế (W x H x D) : 540,50 x 325,24 x 51,67 mm<br>Kích thước hộp (W x H x D) : 599 x 446 x 136 mm</td></tr><tr><td>Trọng lượng</td><td>Trọng lượng tịnh với chân đế: 3,56 kg<br>Trọng lượng ròng không có giá đỡ : 3,07 kg<br>Tổng trọng lượng : 5,8 kg</td></tr><tr><td>Tương thích VRR</td><td>FreeSync™ Premium</td></tr><tr><td>Loa tích hợp</td><td>Có(2Wx2)</td></tr></tbody></table>
+						</div>
+					</div>
+					<div class="mt-5 pb-3 text-center">
+						<button class="btn-loadmore">Rút gọn nội dung</button>
+					</div>
+				</div>
+			</div>
+			<!-- San pham tuong tu -->
+			<div class="container similar-product bg-white mt-3">
+				<div class="similar-product-title m-3 pt-3" style="border-bottom: 1px solid lightgray;">
+					<b class="h4" style="border-bottom: 1px solid black;">Sản phẩm liên quan</b>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 p-0">
+						<a class="nav-link product-link" href="">
+							<div class="product-view">
+							  <img class="rounded" src="../img/linh-kien/card/3060OC.webp" alt="3060OC" width="100%">
+							  <div class="product-info">
+								<h6 style="color: gray; font-size: small;">Card màn hình Gigabyte RTX 3060 GAMING OC 12G (12GB GDDR6, 192-bit, HDMI +DP, 1x8-pin)</h6>
+							  </div>
+							  <h5 style="font-size: medium;">
+								8,690,000₫</h5>
+							  <form class="add-to-cart" action="" style="width: 90%;">
+								<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+							  </form>
+							</div>
+						  </a>
+					</div>
+					<div class="col-lg-3 p-0">
+						<a class="nav-link product-link" href="">
+							<div class="product-view">
+							  <img class="rounded" src="../img/linh-kien/card/3080ti.webp" alt="3080ti" width="100%">
+							  <div class="product-info">
+								<h6 style="color: gray; font-size: small;">Card màn hình Gigabyte RTX 3080 Ti AORUS MASTER 12G</h6>
+							  </div>
+							  <h5 style="font-size: medium;">
+								49,899,000₫</h5>
+							  <form class="add-to-cart" action="" style="width: 90%;">
+								<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+							  </form>
+							</div>
+						  </a>
+					</div>
+					<div class="col-lg-3 p-0">
+						<a class="nav-link product-link" href="">
+							<div class="product-view">
+							  <img class="rounded" src="../img/linh-kien/card/4070ti.webp" alt="4070ti" width="100%">
+							  <div class="product-info">
+								<h6 style="color: gray; font-size: small;">Card màn hình Gigabyte RTX 4070 Ti AERO OC 12GB</h6>
+							  </div>
+							  <h5 style="font-size: medium;">30,490,000₫</h5>
+							  <form class="add-to-cart" action="" style="width: 90%;">
+								<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+							  </form>
+							</div>
+						  </a>
+					</div>
+					<div class="col-lg-3 p-0">
+						<a class="nav-link product-link" href="">
+							<div class="product-view">
+							  <img class="rounded" src="../img/linh-kien/card/4070ti-elite.webp" alt="4070ti-elite" width="100%">
+							  <div class="product-info">
+								<h6 style="color: gray; font-size: small;">
+									Card màn hình Gigabyte RTX 4070 Ti AORUS ELITE 12GB</h6>
+							  </div>
+							  <h5 style="font-size: medium;">
+								31,890,000₫</h5>
+							  <form class="add-to-cart" action="" style="width: 90%;">
+								<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+							  </form>
+							</div>
+						  </a>
+					</div>
+					
+				</div>
+			</div>
+			<!-- San pham da xem truoc do -->
+			<div class="container similar-product bg-white mt-3">
+				<div class="m-3 pt-3" style="border-bottom: 1px solid lightgray;">
+					<b class="h4" style="border-bottom: 1px solid black;">Sản phẩm đã xem</b>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 p-0">
+						<a class="nav-link product-link" href="">
+							<div class="product-view">
+							  <img class="rounded" src="../img/linh-kien/ssd/49428_o_ssd_gigabyte_gag325e500g_500gb.webp" alt="49428_o_ssd_gigabyte_gag325e500g_500gb" width="100%">
+							  <div class="product-info">
+								<h6 style="color: gray; font-size: small;">Ổ cứng SSD GIGABYTE 2500E 500GB M2 2280 NVMe gen3x4 ( G325E500G )</h6>
+							  </div>
+							  <h5 style="font-size: medium;">
+								1,290,000₫</h5>
+							  <form class="add-to-cart" action="" style="width: 90%;">
+								<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+							  </form>
+							</div>
+						  </a>
+					</div>
+					<div class="col-lg-3 p-0">
+						<a class="nav-link product-link" href="">
+							<div class="product-view">
+							  <img class="rounded" src="../img/linh-kien/ssd/ssd-crucial-p3-plus-1tb.webp" alt="ssd-crucial-p3-plus-1tb" width="100%">
+							  <div class="product-info">
+								<h6 style="color: gray; font-size: small;">SSD Crucial P3 Plus NVME 1TB PCIE GEN4x4 bảo hành 60 tháng</h6>
+							  </div>
+							  <h5 style="font-size: medium;">
+								1,990,000₫</h5>
+							  <form class="add-to-cart" action="" style="width: 90%;">
+								<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+							  </form>
+							</div>
+						  </a>
+					</div>
+					<div class="col-lg-3 p-0">
+						<a class="nav-link product-link" href="">
+							<div class="product-view">
+							  <img class="rounded" src="../img/linh-kien/ssd/67631_o_cung_ssd_kingston_snv2s_500gb_nvme_m__5.webp" alt="67631_o_cung_ssd_kingston_snv2s_500gb_nvme_m__5" width="100%">
+							  <div class="product-info">
+								<h6 style="color: gray; font-size: small;">SSD Kingston NV2 M.2 NVMe 500GB - M2 2280 - PCIe Gen4x4</h6>
+							  </div>
+							  <h5 style="font-size: medium;">
+								1,390,000₫</h5>
+							  <form class="add-to-cart" action="" style="width: 90%;">
+								<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+							  </form>
+							</div>
+						  </a>
+					</div>
+					<div class="col-lg-3 p-0">
+						<a class="nav-link product-link" href="">
+							<div class="product-view">
+							  <img class="rounded" src="../img/linh-kien/ssd/44540_____c___ng_ssd_kingmax_smv32_240gb_2_5_inch_sata3.webp" alt="44540_____c___ng_ssd_kingmax_smv32_240gb_2_5_inch_sata3" width="100%">
+							  <div class="product-info">
+								<h6 style="color: gray; font-size: small;">SSD Crucial P3 Plus NVME 1TB PCIE GEN4x4 bảo hành 60 tháng</h6>
+							  </div>
+							  <h5 style="font-size: medium;">
+								750,000₫</h5>
+							  <form class="add-to-cart" action="" style="width: 90%;">
+								<button type="submit" class="btn text-white" style="font-size: small;">Thêm vào giỏ hàng</button>
+							  </form>
+							</div>
+						  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div>
+
+		</div>
+	</div>
+
+	<!-- Footer -->
+    <div class="footer-wrapper">
+		<div class="email-contact">
+		  <div class="email-contact-title">
+			<h4>Đăng ký bản tin</h4>
+			<p>Để được nhận thông báo về các ưu đãi của shop!</p>
+		  </div> 
+		  <div class="input-email">
+			<input type="email" class="form-control" placeholder="Nhập email của bạn...." name="usrname">
+			<button class="btn-dang-ky">Đăng ký</button>
+		  </div>
+  
+		</div>
+		<div class="shop-info">
+		  <div class="shop-introduction">
+			<h4>Burno Shop</h4>
+			<p>Trang thương mại chính thức của Burno. Cung cấp các sản phẩm tuyện vời đến với người dùng.</p>
+		  </div>
+		  <div class="contact-info">
+			<h4>Thông tin liên hệ</h4>
+			<div class="address-footer">
+			  <ul>
+				<li class="contact-1">12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh.</li>
+				<li class="contact-2">0968 xxx xxx - 097 xxx xxxx</li>
+				<li class="contact-4">burnoshop123@gmail.com</li>
+			  </ul>
+			</div>
+		  </div>
+		  <div class="support">
+			<h4>Hỗ trợ khách hàng</h4>
+			<div class="address-footer">
+			  <ul>
+				<li class="contact-1"><a class="nav-link footer-link" href="">Tài khoản ngân hàng</a></li>
+				<li class="contact-2"><a class="nav-link footer-link" href="">Tìm kiếm</a></li>
+			  </ul>
+			</div>
+		  </div>
+		  <div class="policy">
+			<h4 cla>Chính sách</h4>
+			<div class="address-footer">
+			  <ul>
+				<li class="contact-1"><a class="nav-link footer-link" href="">Chính sách bảo hành</a></li>
+				<li class="contact-2"><a class="nav-link footer-link" href="">Chính sách bảo mật</a></li>
+				<li class="contact-3"><a class="nav-link footer-link" href="">Chính sách đổi trả</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+		<div class="copyright-info">
+		  <p class="d-inline">Copyright © 2023 Burno Shop - Phụ kiện |Tư vấn Build PC| giá rẻ - www.burnoshop.vn.</p>
+		  <a href="gioithieu.html">about</a>
+		</div>
+	  </div>
+</body>
+</html>
